@@ -4,7 +4,6 @@ from itertools import zip_longest
 
 class Polynomial:
  
-
     def __init__(self, *coefficients):
         """ input: coefficients are in the form a_n, ...a_1, a_0 
         """

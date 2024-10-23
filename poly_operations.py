@@ -63,16 +63,8 @@ qx = (2, 1, 0)
 print("p(x) = ", print_polynomial(px))
 print("q(x) = ", print_polynomial(qx))
 
-
-
 # divide the polynomials
 quotient, remainder = numpy.polynomial.polynomial.polydiv(px, qx)
 print("The result of the polynomial division is... ")
 print(f"Quotient = {print_polynomial(quotient)}")
 print("Remainder = ",print_polynomial(remainder) + " / " + print_polynomial(qx) )
-
-
-
-
-
-
